@@ -10,9 +10,9 @@ export const CACHE = {
   /** 70 days — HTML pages served through the proxy. */
   HTML: 60,
   /** 24 hours — sitemap revalidation. */
-  SITEMAP: 86_400,
+  SITEMAP: 60,
   /** 1 hour — robots.txt. */
-  ROBOTS: 3_600,
+  ROBOTS: 60,
 } as const;
 
 /**

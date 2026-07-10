@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 6767",
     "build": "next build",
     "postbuild": "tsx scripts/postbuild.ts",
     "start": "next start",
